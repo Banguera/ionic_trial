@@ -1,5 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { ItemDetailsPage } from '../item-details/item-details';
+
+import { PokemonService } from '../../app/shared/pokemon-service';
 
 @Component({
   selector: 'page-list',
@@ -10,7 +13,15 @@ export class ListPage {
   icons: string[];
   items: Array<{title: string, note: string, icon: string}>;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  public pokemons : Array<Object> = [];
+  public currentPage : number = 1;
+  public totalPages : number;
+  public offset : number = 0;
+
+  public display:string = "none";
+  public currentPokemon:Object;
+
+  constructor(public navCtrl: NavController, public navParams: NavParams, private pokeService: PokemonService) {
     // If we navigated to this page, we will have an item available as a nav param
     this.selectedItem = navParams.get('item');
 
@@ -28,9 +39,29 @@ export class ListPage {
     }
   }
 
+  ngOnInit() {
+    this.getPokemons()
+  }
+
+  getPokemons(){
+    this.pokeService.getPokemons(this.offset).subscribe(res => {
+      let result = res.json().results
+
+      console.log('result', result);
+      this.offset = this.offset + result.length;
+      this.totalPages = Math.ceil(res.json().count / 20);
+
+      if(result){
+        result.forEach(element => {
+          this.pokemons.push(element);
+        });
+      }
+    });
+  }
+
   itemTapped(event, item) {
-    // That's right, we're pushing to ourselves!
-    this.navCtrl.push(ListPage, {
+    console.log(item);
+    this.navCtrl.push(ItemDetailsPage, {
       item: item
     });
   }
