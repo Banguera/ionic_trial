@@ -8,12 +8,22 @@
 </ion-header>
 
 <ion-content>
-  <ion-list>
+  <!-- <ion-list>
     <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
       <ion-icon [name]="item.icon" item-left></ion-icon>
       {{item.title}}
       <div class="item-note" item-right>
         {{item.note}}
+      </div>
+    </button>
+  </ion-list>
+ -->  <ion-list>
+    <button ion-item *ngFor="let pokemon of pokemons" (click)="pokemonTapped($event, pokemon)">
+      <ion-icon [name]="pokemon.name" item-left>
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{pokemon.id}}.png" alt="">
+      </ion-icon>
+      <div class="item-note" item-right>
+        {{pokemon.name}}
       </div>
     </button>
   </ion-list>

@@ -7,6 +7,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { ItemDetailsPage } from '../pages/item-details/item-details';
+import { PokemonDetailsPage } from '../pages/pokemon-details/pokemon-details';
 
 import { PokemonService } from './shared/pokemon-service';
 
@@ -18,7 +19,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     ListPage,
-    ItemDetailsPage
+    ItemDetailsPage,
+    PokemonDetailsPage
   ],
   imports: [
     BrowserModule,
@@ -30,7 +32,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     ListPage,
-    ItemDetailsPage
+    ItemDetailsPage,
+    PokemonDetailsPage
   ],
   providers: [
     PokemonService,
