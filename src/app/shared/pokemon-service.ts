@@ -9,7 +9,12 @@ export class PokemonService {
   constructor(private http: Http) { }
 
   getPokemonDetail(current_pokemon): Observable<Response> {
-    return this.http.get(`${this.urlBase}/api/v2/pokemon/${current_pokemon}`);
+    console.log('current_pokemon in service pokemon: ',current_pokemon);
+    let full_url = `${this.urlBase}/api/v2/pokemon/${current_pokemon}`;
+    console.log('full_url in service pokemon: ',full_url);
+    let response = this.http.get(full_url);
+    console.log('response in service pokemon: ',response);
+    return response;
   }
 
   getPokemons(offset:number): Observable<Response> {

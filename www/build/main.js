@@ -35835,7 +35835,7 @@ exports.root = _root;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__components_loading_loading__ = __webpack_require__(134);
 /* unused harmony reexport Loading */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__components_loading_loading_controller__ = __webpack_require__(133);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_45__components_loading_loading_controller__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_45__components_loading_loading_controller__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__components_loading_loading_component__ = __webpack_require__(64);
 /* unused harmony reexport LoadingCmp */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__components_menu_menu__ = __webpack_require__(137);
@@ -35851,9 +35851,9 @@ exports.root = _root;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__components_modal_modal_component__ = __webpack_require__(65);
 /* unused harmony reexport ModalCmp */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__components_modal_modal_controller__ = __webpack_require__(138);
-/* unused harmony reexport ModalController */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_53__components_modal_modal_controller__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__components_nav_nav__ = __webpack_require__(68);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_54__components_nav_nav__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_54__components_nav_nav__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__components_nav_nav_pop__ = __webpack_require__(66);
 /* unused harmony reexport NavPop */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__components_nav_nav_pop_anchor__ = __webpack_require__(140);
@@ -35966,20 +35966,20 @@ exports.root = _root;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_108__platform_dom_controller__ = __webpack_require__(8);
 /* unused harmony reexport DomController */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_109__platform_platform__ = __webpack_require__(3);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_109__platform_platform__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_109__platform_platform__["a"]; });
 /* unused harmony reexport setupPlatform */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_110__tap_click_haptic__ = __webpack_require__(36);
 /* unused harmony reexport Haptic */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_111__navigation_deep_linker__ = __webpack_require__(13);
 /* unused harmony reexport DeepLinker */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_112__navigation_ionic_page__ = __webpack_require__(229);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_112__navigation_ionic_page__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_112__navigation_ionic_page__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_113__navigation_nav_controller__ = __webpack_require__(21);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_113__navigation_nav_controller__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_113__navigation_nav_controller__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_114__navigation_nav_controller_base__ = __webpack_require__(46);
 /* unused harmony reexport NavControllerBase */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_115__navigation_nav_params__ = __webpack_require__(14);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_115__navigation_nav_params__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_115__navigation_nav_params__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_116__navigation_nav_util__ = __webpack_require__(22);
 /* unused harmony reexport DeepLinkMetadata */
 /* unused harmony reexport DeepLinkMetadataFactory */
@@ -35991,7 +35991,7 @@ exports.root = _root;
 /* unused harmony reexport UrlSerializer */
 /* unused harmony reexport DeepLinkConfigToken */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_119__navigation_view_controller__ = __webpack_require__(5);
-/* unused harmony reexport ViewController */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_119__navigation_view_controller__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_120__gestures_pan_gesture__ = __webpack_require__(45);
 /* unused harmony reexport PanGesture */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_121__gestures_gesture__ = __webpack_require__(225);
@@ -56468,11 +56468,11 @@ var ItemDetailsPage = (function () {
     return ItemDetailsPage;
 }());
 ItemDetailsPage = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* IonicPage */])(),
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Component */])({
         selector: 'page-item-details',template:/*ion-inline-start:"/Users/jorge.banguera/projects/banguera/ionic_trial/src/pages/item-details/item-details.html"*/'<!--\n  Generated template for the ItemDetailsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>item-details: {{item.title}}</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/jorge.banguera/projects/banguera/ionic_trial/src/pages/item-details/item-details.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
 ], ItemDetailsPage);
 
 //# sourceMappingURL=item-details.js.map
@@ -56514,7 +56514,12 @@ var PokemonService = (function () {
         this.urlBase = "http://pokeapi.co";
     }
     PokemonService.prototype.getPokemonDetail = function (current_pokemon) {
-        return this.http.get(this.urlBase + "/api/v2/pokemon/" + current_pokemon);
+        console.log('current_pokemon in service pokemon: ', current_pokemon);
+        var full_url = this.urlBase + "/api/v2/pokemon/" + current_pokemon;
+        console.log('full_url in service pokemon: ', full_url);
+        var response = this.http.get(full_url);
+        console.log('response in service pokemon: ', response);
+        return response;
     };
     PokemonService.prototype.getPokemons = function (offset) {
         return this.http.get(this.urlBase + "/api/v2/pokemon/?offset=" + offset);
@@ -56555,11 +56560,12 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"/Users/jorge.banguera/projects/banguera/ionic_trial/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Ionic Menu Starter</h3>\n\n  <p>\n    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.\n  </p>\n\n  <button ion-button secondary menuToggle>Toggle Menu</button>\n</ion-content>\n'/*ion-inline-end:"/Users/jorge.banguera/projects/banguera/ionic_trial/src/pages/home/home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"/Users/jorge.banguera/projects/banguera/ionic_trial/src/pages/home/home.html"*/'<ion-content padding class="page-home">\n  <ion-row class="top-thirty">\n    <h1>Pokedex 2017 V0.1</h1>\n    <p>\n      First version of pokedex in Ionic framework.\n    </p>\n    <p>\n      You can always find the source in <a href="https://github.com/Banguera/ionic_trial">Ionic Sample</a> on Github.\n    </p>\n    <h3>Toggle Menu to see other options</h3>\n  </ion-row>\n</ion-content>\n<ion-footer>\n  <ion-toolbar position="bottom" menuToggle>\n    <!-- Toggle Menu\n    <button class="transparent-background" ion-button full menuToggle>Toggle Menu</button> -->\n    <ion-icon name="md-apps"></ion-icon>\n  </ion-toolbar>\n</ion-footer>'/*ion-inline-end:"/Users/jorge.banguera/projects/banguera/ionic_trial/src/pages/home/home.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */]) === "function" && _a || Object])
 ], HomePage);
 
+var _a;
 //# sourceMappingURL=home.js.map
 
 /***/ }),
@@ -56570,7 +56576,7 @@ HomePage = __decorate([
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pokemon_details_pokemon_details__ = __webpack_require__(266);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__poke_modal_poke_modal__ = __webpack_require__(270);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_shared_pokemon_service__ = __webpack_require__(100);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -56585,11 +56591,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
 var ListPage = (function () {
-    function ListPage(loadingCtrl, navCtrl, navParams, pokeService) {
-        // If we navigated to this page, we will have an item available as a nav param
-        // this.selectedItem = navParams.get('item');
+    function ListPage(modalCtrl, loadingCtrl, navCtrl, navParams, pokeService) {
+        this.modalCtrl = modalCtrl;
         this.loadingCtrl = loadingCtrl;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
@@ -56598,29 +56602,16 @@ var ListPage = (function () {
         this.currentPage = 1;
         this.offset = 0;
         this.display = "none";
-        // // Let's populate this page with some filler content for funzies
-        // this.icons = ['flask', 'wifi', 'beer', 'football', 'basketball', 'paper-plane',
-        // 'american-football', 'boat', 'bluetooth', 'build'];
-        // this.items = [];
-        // for (let i = 1; i < 11; i++) {
-        //   this.items.push({
-        //     title: 'Item ' + i,
-        //     note: 'This is item #' + i,
-        //     icon: this.icons[Math.floor(Math.random() * this.icons.length)]
-        //   });
-        // }
+        this.dismissObj = this.loadingCtrl.create({
+            content: 'Pokemons on their way...'
+        });
     }
     ListPage.prototype.ngOnInit = function () {
         this.presentLoading();
         this.getPokemons();
     };
     ListPage.prototype.presentLoading = function () {
-        this.loadingCtrl.create({
-            content: 'Please wait...',
-            duration: 3000
-            // ,
-            // dismissOnPageChange: true
-        }).present();
+        this.dismissObj.present();
     };
     ListPage.prototype.getPokemons = function () {
         var _this = this;
@@ -56635,7 +56626,15 @@ var ListPage = (function () {
                     _this.pokemons.push(element);
                 });
             }
+            _this.dismissLoading();
         });
+    };
+    ListPage.prototype.openModal = function (id) {
+        var pokeModal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_2__poke_modal_poke_modal__["a" /* PokeModalPage */], id);
+        pokeModal.present();
+    };
+    ListPage.prototype.dismissLoading = function () {
+        this.dismissObj.dismiss();
     };
     // itemTapped(event, item) {
     //   console.log(item);
@@ -56645,20 +56644,24 @@ var ListPage = (function () {
     // }
     ListPage.prototype.pokemonTapped = function (event, pokemon) {
         console.log(pokemon);
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__pokemon_details_pokemon_details__["a" /* PokemonDetailsPage */], {
-            pokemon: pokemon
-        });
+        this.openModal({ id: pokemon.id });
+        // this.navCtrl.push(PokemonDetailsPage, {
+        //   pokemon: pokemon
+        // });
     };
     return ListPage;
 }());
 ListPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Component */])({
-        selector: 'page-list',template:/*ion-inline-start:"/Users/jorge.banguera/projects/banguera/ionic_trial/src/pages/list/list.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>List</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <!-- <ion-list>\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n      <ion-icon [name]="item.icon" item-left></ion-icon>\n      {{item.title}}\n      <div class="item-note" item-right>\n        {{item.note}}\n      </div>\n    </button>\n  </ion-list>\n -->  <ion-list>\n    <button ion-item *ngFor="let pokemon of pokemons" (click)="pokemonTapped($event, pokemon)">\n      <ion-icon [name]="pokemon.name" item-left>\n        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{pokemon.id}}.png" alt="">\n      </ion-icon>\n      <div class="item-note" item-right>\n        {{pokemon.name}}\n      </div>\n    </button>\n  </ion-list>\n  <div *ngIf="selectedItem" padding>\n    You navigated here from <b>{{selectedItem.title}}</b>\n  </div>\n</ion-content>\n'/*ion-inline-end:"/Users/jorge.banguera/projects/banguera/ionic_trial/src/pages/list/list.html"*/
+        selector: 'page-list',template:/*ion-inline-start:"/Users/jorge.banguera/projects/banguera/ionic_trial/src/pages/list/list.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Pokemon list</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <button ion-item *ngFor="let pokemon of pokemons" (click)="pokemonTapped($event, pokemon)">\n      <!-- <ion-item> -->\n        <ion-avatar item-start>\n          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{pokemon.id}}.png" alt="">\n        </ion-avatar>\n        <h2>{{pokemon.name | capitalize}}</h2>\n        <p>Mini descr text???</p>\n      <!-- </ion-item> -->\n      <!-- <ion-icon [name]="pokemon.name" item-left>\n        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{pokemon.id}}.png" alt="">\n      </ion-icon>\n      <div class="item-note" item-right>\n        {{pokemon.name}}\n      </div> -->\n    </button>\n  </ion-list>\n  <div *ngIf="selectedItem" padding>\n    You navigated here from <b>{{selectedItem.title}}</b>\n  </div>\n</ion-content>\n'/*ion-inline-end:"/Users/jorge.banguera/projects/banguera/ionic_trial/src/pages/list/list.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__app_shared_pokemon_service__["a" /* PokemonService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__app_shared_pokemon_service__["a" /* PokemonService */]) === "function" && _d || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ModalController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */],
+        __WEBPACK_IMPORTED_MODULE_3__app_shared_pokemon_service__["a" /* PokemonService */]])
 ], ListPage);
 
-var _a, _b, _c, _d;
 //# sourceMappingURL=list.js.map
 
 /***/ }),
@@ -77003,15 +77006,19 @@ webpackAsyncContext.id = 195;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_list_list__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_item_details_item_details__ = __webpack_require__(98);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_pokemon_details_pokemon_details__ = __webpack_require__(266);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__shared_pokemon_service__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_splash_screen__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_poke_modal_poke_modal__ = __webpack_require__(270);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__shared_pokemon_service__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_status_bar__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_native_splash_screen__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pipes_capitalize_capitalize__ = __webpack_require__(268);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
 
 
 
@@ -77036,7 +77043,9 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_5__pages_home_home__["a" /* HomePage */],
             __WEBPACK_IMPORTED_MODULE_6__pages_list_list__["a" /* ListPage */],
             __WEBPACK_IMPORTED_MODULE_7__pages_item_details_item_details__["a" /* ItemDetailsPage */],
-            __WEBPACK_IMPORTED_MODULE_8__pages_pokemon_details_pokemon_details__["a" /* PokemonDetailsPage */]
+            __WEBPACK_IMPORTED_MODULE_8__pages_pokemon_details_pokemon_details__["a" /* PokemonDetailsPage */],
+            __WEBPACK_IMPORTED_MODULE_9__pages_poke_modal_poke_modal__["a" /* PokeModalPage */],
+            __WEBPACK_IMPORTED_MODULE_13__pipes_capitalize_capitalize__["a" /* CapitalizePipe */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -77054,12 +77063,13 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_5__pages_home_home__["a" /* HomePage */],
             __WEBPACK_IMPORTED_MODULE_6__pages_list_list__["a" /* ListPage */],
             __WEBPACK_IMPORTED_MODULE_7__pages_item_details_item_details__["a" /* ItemDetailsPage */],
+            __WEBPACK_IMPORTED_MODULE_9__pages_poke_modal_poke_modal__["a" /* PokeModalPage */],
             __WEBPACK_IMPORTED_MODULE_8__pages_pokemon_details_pokemon_details__["a" /* PokemonDetailsPage */]
         ],
         providers: [
-            __WEBPACK_IMPORTED_MODULE_9__shared_pokemon_service__["a" /* PokemonService */],
-            __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__["a" /* StatusBar */],
-            __WEBPACK_IMPORTED_MODULE_11__ionic_native_splash_screen__["a" /* SplashScreen */],
+            __WEBPACK_IMPORTED_MODULE_10__shared_pokemon_service__["a" /* PokemonService */],
+            __WEBPACK_IMPORTED_MODULE_11__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_12__ionic_native_splash_screen__["a" /* SplashScreen */],
             { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["b" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] }
         ]
     })
@@ -77289,8 +77299,8 @@ var MyApp = (function () {
         this.initializeApp();
         // used for an example of ngFor and navigation
         this.pages = [
-            { title: 'Home', component: __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */] },
-            { title: 'List', component: __WEBPACK_IMPORTED_MODULE_5__pages_list_list__["a" /* ListPage */] }
+            { title: 'Pokedex Home', component: __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */] },
+            { title: 'Pokemon List', component: __WEBPACK_IMPORTED_MODULE_5__pages_list_list__["a" /* ListPage */] }
         ];
     }
     MyApp.prototype.initializeApp = function () {
@@ -77310,13 +77320,13 @@ var MyApp = (function () {
     return MyApp;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Nav */]),
-    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Nav */])
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* Nav */]),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* Nav */])
 ], MyApp.prototype, "nav", void 0);
 MyApp = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Component */])({template:/*ion-inline-start:"/Users/jorge.banguera/projects/banguera/ionic_trial/src/app/app.html"*/'<ion-menu [content]="content">\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>Menu</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list>\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"/Users/jorge.banguera/projects/banguera/ionic_trial/src/app/app.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], MyApp);
 
 //# sourceMappingURL=app.component.js.map
@@ -114821,15 +114831,144 @@ var PokemonDetailsPage = (function () {
     return PokemonDetailsPage;
 }());
 PokemonDetailsPage = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* IonicPage */])(),
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Component */])({
-        selector: 'page-pokemon-details',template:/*ion-inline-start:"/Users/jorge.banguera/projects/banguera/ionic_trial/src/pages/pokemon-details/pokemon-details.html"*/'<!--\n  Generated template for the PokemonDetailsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>{{pokemon.name}} details:</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/jorge.banguera/projects/banguera/ionic_trial/src/pages/pokemon-details/pokemon-details.html"*/,
+        selector: 'page-pokemon-details',template:/*ion-inline-start:"/Users/jorge.banguera/projects/banguera/ionic_trial/src/pages/pokemon-details/pokemon-details.html"*/'<!--\n  Generated template for the PokemonDetailsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>{{pokemon.name | capitalize}} details:</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/jorge.banguera/projects/banguera/ionic_trial/src/pages/pokemon-details/pokemon-details.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _b || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
 ], PokemonDetailsPage);
 
-var _a, _b;
 //# sourceMappingURL=pokemon-details.js.map
+
+/***/ }),
+/* 267 */,
+/* 268 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CapitalizePipe; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+/**
+ * Generated class for the CapitalizePipe pipe.
+ *
+ * See https://angular.io/docs/ts/latest/guide/pipes.html for more info on
+ * Angular Pipes.
+ */
+var CapitalizePipe = (function () {
+    function CapitalizePipe() {
+    }
+    /**
+     * Takes a value and makes it lowercase.
+     */
+    CapitalizePipe.prototype.transform = function (value) {
+        var args = [];
+        for (var _i = 1; _i < arguments.length; _i++) {
+            args[_i - 1] = arguments[_i];
+        }
+        if (value) {
+            return value.charAt(0).toUpperCase() + value.slice(1);
+        }
+        return value;
+    };
+    return CapitalizePipe;
+}());
+CapitalizePipe = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Pipe */])({
+        name: 'capitalize',
+    })
+], CapitalizePipe);
+
+//# sourceMappingURL=capitalize.js.map
+
+/***/ }),
+/* 269 */,
+/* 270 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PokeModalPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_shared_pokemon_service__ = __webpack_require__(100);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+// import { IonicPage, NavController, NavParams } from 'ionic-angular';
+/**
+ * Generated class for the PokeModalPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+// @IonicPage()
+var PokeModalPage = (function () {
+    function PokeModalPage(platform, navParams, loadingCtrl, viewCtrl, pokeService) {
+        this.platform = platform;
+        this.navParams = navParams;
+        this.loadingCtrl = loadingCtrl;
+        this.viewCtrl = viewCtrl;
+        this.pokeService = pokeService;
+        this.pokemon = {};
+        this.dismissObj = this.loadingCtrl.create({
+            content: 'Getting Pokemon...'
+        });
+        this.id = this.navParams.get('id');
+        this.presentLoading();
+        this.getPokemon();
+    }
+    PokeModalPage.prototype.presentLoading = function () {
+        this.dismissObj.present();
+    };
+    // ionViewDidLoad() {
+    //   console.log('ionViewDidLoad PokeModalPage');
+    // }
+    PokeModalPage.prototype.getPokemon = function () {
+        var _this = this;
+        this.pokeService.getPokemonDetail(this.id).subscribe(function (res) {
+            console.log('res in PokeModalPage:', res);
+            var body = res.json();
+            console.log('body in PokeModalPage:', body);
+            _this.pokemon = body;
+            console.log('this.pokemon in PokeModalPage:', _this.pokemon);
+            _this.dismissLoading();
+        });
+    };
+    PokeModalPage.prototype.dismissLoading = function () {
+        this.dismissObj.dismiss();
+    };
+    PokeModalPage.prototype.dismiss = function () {
+        this.viewCtrl.dismiss();
+    };
+    return PokeModalPage;
+}());
+PokeModalPage = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Component */])({
+        selector: 'page-poke-modal',template:/*ion-inline-start:"/Users/jorge.banguera/projects/banguera/ionic_trial/src/pages/poke-modal/poke-modal.html"*/'<!--\n  Generated template for the PokeModalPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-icon name="arrow-dropleft-circle" (click)="dismiss()"></ion-icon>\n    <ion-title>{{ pokemon.name | capitalize }}</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/jorge.banguera/projects/banguera/ionic_trial/src/pages/poke-modal/poke-modal.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ViewController */],
+        __WEBPACK_IMPORTED_MODULE_2__app_shared_pokemon_service__["a" /* PokemonService */]])
+], PokeModalPage);
+
+//# sourceMappingURL=poke-modal.js.map
 
 /***/ })
 /******/ ]);

@@ -25198,3 +25198,75 @@ ion-navbar.toolbar {
     padding-top: calc(16px + 20px);
   }
 }
+
+page-home .page-home {
+  /* background-color: #F30000; */
+  background-image: url("../assets/imgs/pokedex1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+page-home .page-home .top-thirty {
+  padding-top: 75%;
+}
+
+page-home .poke-red-background {
+  background-color: red;
+}
+
+page-home ion-footer {
+  bottom: 5%;
+}
+
+page-home ion-footer .toolbar-background-md {
+  background: none;
+}
+
+page-home ion-footer ion-toolbar {
+  text-align: center;
+}
+
+page-home ion-footer ion-toolbar ion-icon {
+  font-size: 4.2em;
+  color: crimson;
+}
+
+page-list {
+  background-image: url("../assets/imgs/pokedex1.png");
+}
+
+page-home .page-home {
+  /* background-color: #F30000; */
+  background-image: url("../assets/imgs/pokedex1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+page-home .page-home .top-thirty {
+  padding-top: 75%;
+}
+
+page-home .poke-red-background {
+  background-color: red;
+}
+
+page-home ion-footer {
+  bottom: 5%;
+}
+
+page-home ion-footer .toolbar-background-md {
+  background: none;
+}
+
+page-home ion-footer ion-toolbar {
+  text-align: center;
+}
+
+page-home ion-footer ion-toolbar ion-icon {
+  font-size: 4.2em;
+  color: crimson;
+}
+
+page-list {
+  background-image: url("../assets/imgs/pokedex1.png");
+}

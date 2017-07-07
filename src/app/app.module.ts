@@ -8,11 +8,13 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { ItemDetailsPage } from '../pages/item-details/item-details';
 import { PokemonDetailsPage } from '../pages/pokemon-details/pokemon-details';
+import { PokeModalPage } from '../pages/poke-modal/poke-modal';
 
 import { PokemonService } from './shared/pokemon-service';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { CapitalizePipe } from '../pipes/capitalize/capitalize';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     ListPage,
     ItemDetailsPage,
-    PokemonDetailsPage
+    PokemonDetailsPage,
+    PokeModalPage,
+    CapitalizePipe
   ],
   imports: [
     BrowserModule,
@@ -33,6 +37,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     ListPage,
     ItemDetailsPage,
+    PokeModalPage,
     PokemonDetailsPage
   ],
   providers: [

@@ -1,9 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
-import { LoadingController } from 'ionic-angular';
+import { NavController, NavParams, LoadingController, ModalController } from 'ionic-angular';
+
+import { CapitalizePipe } from '../../pipes/capitalize/capitalize';
 
 import { ItemDetailsPage } from '../item-details/item-details';
 import { PokemonDetailsPage } from '../pokemon-details/pokemon-details';
+import { PokeModalPage } from '../poke-modal/poke-modal';
 
 import { PokemonService } from '../../app/shared/pokemon-service';
 
@@ -12,9 +14,7 @@ import { PokemonService } from '../../app/shared/pokemon-service';
   templateUrl: 'list.html'
 })
 export class ListPage {
-  selectedItem: any;
-  icons: string[];
-  items: Array<{title: string, note: string, icon: string}>;
+  private dismissObj:any;
 
   public pokemons : Array<Object> = [];
   public currentPage : number = 1;
@@ -24,23 +24,16 @@ export class ListPage {
   public display:string = "none";
   public currentPokemon:Object;
 
-  constructor(public loadingCtrl: LoadingController, public navCtrl: NavController, public navParams: NavParams, private pokeService: PokemonService) {
-    // If we navigated to this page, we will have an item available as a nav param
-    // this.selectedItem = navParams.get('item');
+  constructor(public modalCtrl: ModalController,
+              public loadingCtrl: LoadingController,
+              public navCtrl: NavController,
+              public navParams: NavParams,
+              private pokeService: PokemonService) {
 
-    // // Let's populate this page with some filler content for funzies
-    // this.icons = ['flask', 'wifi', 'beer', 'football', 'basketball', 'paper-plane',
-    // 'american-football', 'boat', 'bluetooth', 'build'];
-
-    // this.items = [];
-    // for (let i = 1; i < 11; i++) {
-    //   this.items.push({
-    //     title: 'Item ' + i,
-    //     note: 'This is item #' + i,
-    //     icon: this.icons[Math.floor(Math.random() * this.icons.length)]
-    //   });
-    // }
-  }
+    this.dismissObj = this.loadingCtrl.create({
+      content: 'Pokemons on their way...'
+    })
+   }
 
   ngOnInit() {
     this.presentLoading();
@@ -48,12 +41,7 @@ export class ListPage {
   }
 
   presentLoading() {
-    this.loadingCtrl.create({
-      content: 'Please wait...',
-      duration: 3000
-      // ,
-      // dismissOnPageChange: true
-    }).present();
+    this.dismissObj.present();
   }
 
   getPokemons(){
@@ -70,7 +58,17 @@ export class ListPage {
           this.pokemons.push(element);
         });
       }
+      this.dismissLoading();
     });
+  }
+
+  openModal(id) {
+    let pokeModal = this.modalCtrl.create(PokeModalPage, id);
+    pokeModal.present();
+  }
+
+  dismissLoading(){
+    this.dismissObj.dismiss();
   }
 
   // itemTapped(event, item) {
@@ -82,8 +80,9 @@ export class ListPage {
 
   pokemonTapped(event, pokemon) {
     console.log(pokemon);
-    this.navCtrl.push(PokemonDetailsPage, {
-      pokemon: pokemon
-    });
+    this.openModal({id: pokemon.id});
+    // this.navCtrl.push(PokemonDetailsPage, {
+    //   pokemon: pokemon
+    // });
   }
 }

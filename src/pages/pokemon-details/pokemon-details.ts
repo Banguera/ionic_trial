@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
+import { CapitalizePipe } from '../../pipes/capitalize/capitalize';
 /**
  * Generated class for the PokemonDetailsPage page.
  *
@@ -10,7 +11,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 @IonicPage()
 @Component({
   selector: 'page-pokemon-details',
-  templateUrl: 'pokemon-details.html',
+  templateUrl: 'pokemon-details.html'
 })
 export class PokemonDetailsPage {
   pokemon: any;
