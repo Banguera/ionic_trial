@@ -16,6 +16,26 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { CapitalizePipe } from '../pipes/capitalize/capitalize';
 
+import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
+
+const cloudSettings: CloudSettings = {
+  'core': {
+    'app_id': '5fe55b5f',
+  },
+  'push': {
+    'sender_id': '817517293277',
+    'pluginConfig': {
+      'ios': {
+        'badge': true,
+        'sound': true
+      },
+      'android': {
+        'iconColor': '#343434'
+      }
+    }
+  }
+};
+
 @NgModule({
   declarations: [
     MyApp,
@@ -29,6 +49,7 @@ import { CapitalizePipe } from '../pipes/capitalize/capitalize';
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
+    CloudModule.forRoot(cloudSettings),
     HttpModule
   ],
   bootstrap: [IonicApp],
