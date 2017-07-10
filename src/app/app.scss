@@ -17,3 +17,32 @@
 
 @import "../pages/home/home";
 @import "../pages/list/list";
+
+ion-menu{
+  ion-header{
+    .toolbar-background{
+      background-color: #3f4041;
+    }
+    .title{
+      .toolbar-title{
+        color: white;
+      }
+    }
+
+  }
+  .content{
+    color: white;
+    background-color: #3f4041;
+  }
+  .item{
+    color: white;
+    background-color: #3f4041;
+  }
+  .footer-img{
+    max-width: 50%;
+    float: right;
+  }
+}
+.footer-md::before{
+  height: 0px;
+}

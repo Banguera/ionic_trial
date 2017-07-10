@@ -3,29 +3,25 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Pokemon list</ion-title>
+    <ion-searchbar [(ngModel)]="searchTerm" [formControl]="searchControl"></ion-searchbar>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
   <ion-list>
-    <button ion-item *ngFor="let pokemon of pokemons" (click)="pokemonTapped($event, pokemon)">
-      <!-- <ion-item> -->
+    <button ion-item *ngFor="let pokemon of filteredPokemons" (click)="pokemonTapped($event, pokemon)">
         <ion-avatar item-start>
           <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{pokemon.id}}.png" alt="">
         </ion-avatar>
         <h2>{{pokemon.name | capitalize}}</h2>
         <p>Mini descr text???</p>
-      <!-- </ion-item> -->
-      <!-- <ion-icon [name]="pokemon.name" item-left>
-        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{pokemon.id}}.png" alt="">
-      </ion-icon>
-      <div class="item-note" item-right>
-        {{pokemon.name}}
-      </div> -->
     </button>
   </ion-list>
-  <div *ngIf="selectedItem" padding>
-    You navigated here from <b>{{selectedItem.title}}</b>
-  </div>
+
+  <ion-infinite-scroll (ionInfinite)="doInfinite($event)">
+    <ion-infinite-scroll-content
+      loadingSpinner="bubbles"
+      loadingText="Loading more pokemon...">
+    </ion-infinite-scroll-content>
+  </ion-infinite-scroll>
 </ion-content>
