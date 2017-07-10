@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 import { CapitalizePipe } from '../../pipes/capitalize/capitalize';
@@ -15,9 +15,6 @@ import { CapitalizePipe } from '../../pipes/capitalize/capitalize';
 })
 export class PokemonDetailsPage {
   pokemon: any;
-
-  ngOnInit(){
-  }
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.pokemon = this.navParams.get('pokemon');

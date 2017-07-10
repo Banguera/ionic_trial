@@ -3,7 +3,7 @@ import { NavController, NavParams, LoadingController, ModalController } from 'io
 
 import { CapitalizePipe } from '../../pipes/capitalize/capitalize';
 
-import { ItemDetailsPage } from '../item-details/item-details';
+// import { ItemDetailsPage } from '../item-details/item-details';
 import { PokemonDetailsPage } from '../pokemon-details/pokemon-details';
 import { PokeModalPage } from '../poke-modal/poke-modal';
 
