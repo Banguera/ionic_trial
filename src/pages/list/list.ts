@@ -2,10 +2,6 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, LoadingController, ModalController } from 'ionic-angular';
 import { FormControl } from '@angular/forms';
 
-import { CapitalizePipe } from '../../pipes/capitalize/capitalize';
-
-// import { ItemDetailsPage } from '../item-details/item-details';
-// import { PokemonDetailsPage } from '../pokemon-details/pokemon-details';
 import { PokeModalPage } from '../poke-modal/poke-modal';
 
 import { PokemonService } from '../../app/shared/pokemon-service';
@@ -18,13 +14,8 @@ export class ListPage {
   private lodadCtrlObj:any;
 
   public pokemons : Array<any> = [];
-  public filteredPokemons : Array<Object> = [];
-  private currentPage : number = 1;
-  private totalPages : number;
+  public filteredPokemons : Array<any> = [];
   private offset : number = 0;
-
-  public display:string = "none";
-  public currentPokemon:Object;
 
   public searchControl: FormControl;
   private searchTerm:string = '';
@@ -46,14 +37,13 @@ export class ListPage {
     this.getPokemons();
 
     this.searchControl.valueChanges.debounceTime(700).subscribe(search => {
-        this.setFilteredPokemons();
+      this.setFilteredPokemons();
     });
   }
 
   setFilteredPokemons(){
     this.filteredPokemons = this.pokemons.filter((pokemon) => {
-        console.info(pokemon);
-        return pokemon.name.toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1;
+      return pokemon.name.toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1;
     });
   }
 
@@ -61,13 +51,11 @@ export class ListPage {
     this.lodadCtrlObj.present();
   }
 
-  getPokemons(){
+  getPokemons(infiniteScroll=null){
     this.pokeService.getPokemons(this.offset).subscribe(res => {
       let result = res.json().results
 
-      console.log('result', result);
       this.offset = this.offset + result.length;
-      this.totalPages = Math.ceil(res.json().count / 20);
 
       if(result){
         result.forEach(element => {
@@ -75,8 +63,8 @@ export class ListPage {
           this.pokemons.push(element);
         });
       }
-      this.filteredPokemons = this.pokemons;
-      this.dismissLoading();
+      this.setFilteredPokemons();
+      infiniteScroll ? infiniteScroll.complete() : this.dismissLoading();
     });
   }
 
@@ -89,12 +77,9 @@ export class ListPage {
     this.lodadCtrlObj.dismiss();
   }
 
-  // itemTapped(event, item) {
-  //   console.log(item);
-  //   this.navCtrl.push(ItemDetailsPage, {
-  //     item: item
-  //   });
-  // }
+  doInfinite(infiniteScroll) {
+    this.getPokemons(infiniteScroll);
+  }
 
   pokemonTapped(event, pokemon) {
     console.log(pokemon);

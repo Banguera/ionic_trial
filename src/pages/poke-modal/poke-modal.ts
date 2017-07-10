@@ -40,10 +40,6 @@ export class PokeModalPage {
     this.dismissObj.present();
   }
 
-  // ionViewDidLoad() {
-  //   console.log('ionViewDidLoad PokeModalPage');
-  // }
-
   getPokemon(){
     this.pokeService.getPokemonDetail(this.id).subscribe(res => {
       console.log('res in PokeModalPage:', res);
