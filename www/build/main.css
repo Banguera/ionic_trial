@@ -25235,6 +25235,33 @@ page-list {
   background-image: url("../assets/imgs/pokedex1.png");
 }
 
+ion-menu ion-header .toolbar-background {
+  background-color: #3f4041;
+}
+
+ion-menu ion-header .title .toolbar-title {
+  color: white;
+}
+
+ion-menu .content {
+  color: white;
+  background-color: #3f4041;
+}
+
+ion-menu .item {
+  color: white;
+  background-color: #3f4041;
+}
+
+ion-menu .footer-img {
+  max-width: 50%;
+  float: right;
+}
+
+.footer-md::before {
+  height: 0px;
+}
+
 page-home .page-home {
   /* background-color: #F30000; */
   background-image: url("../assets/imgs/pokedex1.png");
