@@ -18,7 +18,7 @@ export class ListPage {
   private offset : number = 0;
 
   public searchControl: FormControl;
-  private searchTerm:string = '';
+  private searchTerm:string = 'bulba';
 
   constructor(public modalCtrl: ModalController,
               public loadingCtrl: LoadingController,
